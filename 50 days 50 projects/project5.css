@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f7fb;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background: url("https://thumbs.dreamstime.com/b/amazon-logo-facade-one-their-office-buildings-may-sunnyvale-ca-usa-amazon-logo-facade-one-their-office-125456885.jpg");
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
